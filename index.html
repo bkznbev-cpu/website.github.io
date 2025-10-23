@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <section>
+        
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark"    >
+  <div class="container-fluid ">
+     <a class="navbar-brand" href="index.html">
+      <img src="Images/images/shoes-shop-logo-template-design_316488-452.jpg" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle rounded-circle">
+      ShoeHaus
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"> <i class="bi bi-house-fill"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href
+          ="About.html" > <i class="bi bi-people-fill"></i> About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Contact.html" > <i class="bi bi-telephone-fill""></i> Contacts Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Cart.html" > <i class="bi bi-cart-dash-fill"></i>Cart</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-bag-dash-fill"></i>
+            Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Category1.html">Sneakers</a></li>
+            <li><a class="dropdown-item" href="Category2.html">Boots </a></li>
+            <li><a class="dropdown-item" href="Category3.html">Heels</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex mx-auto" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="d-flex">
+        <a class="btn btn-outline-success me-2" href="Login.html">Login</a>
+        <a class="btn btn-outline-success" href="Register.html">Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+    </section>
+
+ <section class="d-flex justify-content-center my-5 pt-5">
+  <div id="carouselExampleCaptions" class="carousel slide w-75" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/images/shoeshop_279566219.jpg" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+          <p class="text-warning bg-dark">Where fashion meets function. Explore Now</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/images/puma.JPG" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+         <p class="text-warning bg-dark">Step into the Style with our latest collection</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/images/Stanford_2A.webp" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <p class="text-warning bg-dark">Treat your feet into something new</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+     </section>
+
+     <!-- This is for card section -->
+      <section>
+        <h1 class="top text-center mt-4">Top Products</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 mt-5 mx-5 d-flex align-items-start">
+  <div class="col">
+    <div class="card h-100">
+      <img src="Images/images/61c+pY946-L._UY900_.jpg" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+      <div class="card-body">
+        <h5 class="card-title">Trendy</h5>
+        <p class="card-text">A creamy, custard-like pie filled with eggs, and sugar, baked in a flaky pastry
+          crust, offering a rich and comforting treat.
+        </p>
+        <p> <b> Php 150.00</b></p>
+         <button type="button" class="btn btn-warning"> <i class="bi bi-cart-dash"></i>Add to cart</button>
+        <button type="button" class="btn btn-warning">Order Now</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Images/images/Yani_White-Gray_7_1024x1024.jpg" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+      <div class="card-body">
+        <h5 class="card-title">Yani-Lace-up</h5>
+        <p class="card-text">Flaky buttery pastry layers baked to perfection, offering a light airy texture
+          with subtle sweetness.</p>
+        <p><b>Php 150.00</b></p>
+         <button type="button" class="btn btn-warning"> <i class="bi bi-cart-dash"></i> Add to cart</button>
+        <button type="button" class="btn btn-warning">Order Now</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Images/images/12362fb2-6b01-4bf5-aa3f-ecd887188eb1.jpg" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+      <div class="card-body">
+        <h5 class="card-title">Mens-Autum-Sneaker</h5>
+        <p class="card-text">A classic dessert filled with tart cherry filling, topped with a crumbly crust or
+          lattice design, perfect for satisfying sweet cravings.</p>
+         <p> <b>Php 150.00</b></p>
+          <button type="button" class="btn btn-warning"><i class="bi bi-cart-dash"></i>Add to cart</button>
+        <button type="button" class="btn btn-warning">Order Now</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- gallery section -->
+     <section>
+      <h1 class="top text-center mt-4 bg-dark-subtle" > GALLERY </h1>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center mb-5 ">
+            <iframe class= "border border-4 border-warning" width="560" height="315" src="https://www.youtube.com/embed/uKN9h4OJFHM?si=3IJAxtImzLxGtpKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center mb-5 ">
+          <iframe class= "border border-4 border-warning" width="560" height="315" src="https://www.youtube.com/embed/VnE7m8JI7MY?si=G3d9optOgS8zfMHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="col-md-6 d-flex justify-content-center mb-5 ">
+          <iframe  class="border border-4 border-warning" width="560" height="315" src="https://www.youtube.com/embed/5Zw53xsQ4aU?si=2VE-KyfQDnJEzubT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+      </div>
+     </section>
+
+
+<!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white mt-5"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: rgba(10, 119, 68, 0.863)"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">ShoeHaus</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Step into style with ShoeHaus, your ultimate destination for premium footwear. From trendy sneakers to elegant heels, we offer quality shoes for every occasion.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="Category1.html" class="text-white">Sneakers</a>
+            </p>
+            <p>
+              <a href="Category2.html" class="text-white">Boots</a>
+            </p>
+            <p>
+              <a href="Category3.html" class="text-white">Heels</a>
+            </p>
+            <p>
+              <a href="product.html" class="text-white">All Products</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #072885; height: 2px"
+                />
+            <p>
+              <a href="Login.html" class="text-white">Login</a>
+            </p>
+            <p>
+              <a href="Register.html" class="text-white">Register</a>
+            </p>
+            <p>
+              <a href="Cart.html" class="text-white">Cart</a>
+            </p>
+            <p>
+              <a href="About.html" class="text-white">About Us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Manila, Philippines</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@shoehaus.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +63 912 345 6789</p>
+            <p><i class="fas fa-print mr-3"></i> +63 912 345 6790</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2024 Copyright:
+      <a class="text-white" href="index.html"
+         >ShoeHaus</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
